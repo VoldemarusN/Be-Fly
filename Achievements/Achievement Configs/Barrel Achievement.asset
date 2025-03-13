@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df44a9e04ea9e848a1039f0b7771d6a, type: 3}
+  m_Name: Barrel Achievement
+  m_EditorClassIdentifier: 
+  AchieveName: "\u0412\u044B\u0441\u0448\u0438\u0439 \u043F\u0438\u043B\u043E\u0442\u0430\u0436"
+  AchivementId: Barrel Achievement
+  AchievementNameLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:e30db3e12f699c44f8ddd8e0f6aba251
+    m_TableEntryReference:
+      m_KeyId: 27644092403712
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description: "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u043B \u0441\u043B\u043E\u0436\u043D\u044B\u0439
+    \u043C\u0430\u043D\u0435\u0432\u0440"
+  DescriptionLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:e30db3e12f699c44f8ddd8e0f6aba251
+    m_TableEntryReference:
+      m_KeyId: 27670969503744
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  MaxProgress: 1
+  Icon: {fileID: 21300000, guid: 1c1f8d0d3c01f64449da5c38d3d99209, type: 3}
+  Handler: DefaultNamespace.Achievements.BarrelAchievementHandler
+  Scene: MainMenu
+  planeTypeForAchievement: 3
+  ValueToReach: 0
+  references:
+    version: 2
+    RefIds: []

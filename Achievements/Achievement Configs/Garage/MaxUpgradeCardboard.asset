@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df44a9e04ea9e848a1039f0b7771d6a, type: 3}
+  m_Name: MaxUpgradeCardboard
+  m_EditorClassIdentifier: 
+  AchieveName: Max up Cardboard
+  AchivementId: Max Upgrade Cardboard
+  AchievementNameLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:e30db3e12f699c44f8ddd8e0f6aba251
+    m_TableEntryReference:
+      m_KeyId: 36678933598208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description: "\u041F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043F\u0440\u043E\u043A\u0430\u0447\u0430\u043B
+    \u043A\u0430\u0440\u0442\u043E\u043D\u043D\u044B\u0439 \u0441\u0430\u043C\u043E\u043B\u0451\u0442"
+  DescriptionLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:e30db3e12f699c44f8ddd8e0f6aba251
+    m_TableEntryReference:
+      m_KeyId: 36680493879296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  MaxProgress: 1
+  Icon: {fileID: 21300000, guid: 57c82ce5fd028c74c810d64d91abec88, type: 3}
+  Handler: Achievements.Handlers.MaxUpgradePlaneAchievementHandler
+  Scene: MainMenu
+  planeTypeForAchievement: 0
+  ValueToReach: 0
+  references:
+    version: 2
+    RefIds: []
